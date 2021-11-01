@@ -10,9 +10,10 @@ namespace T2008M_WAD.Models
     {
         public DataContext() : base("T2008M_WAD")
         {
+
         }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
-       
+        
+
+        public System.Data.Entity.DbSet<T2008M_WAD.Models.Practicals> Practicals { get; set; }
     }
 }
